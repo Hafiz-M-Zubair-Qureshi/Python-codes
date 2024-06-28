@@ -1,20 +1,39 @@
-# WAP to find the sum of first n numbers using while loop
-# for n=7
-n=7
-sum=0
-i=1
-while i<=n:
-    sum+=i
-    i+=1
-
-print("total sum=", sum)   
+dictionary={
+    "cat" : "a small animal",
+    "table": ["a piece of furniture","list of facts and figures"]
+}
+print(dictionary)
 
 
 
-# WAP to find the factorial of first n numbers using for loop
-n=5
-fact=1
+set1={"python","java","C++","python","javascript","java","python","java","C++","C"}
 
-for i in range(1,n+1):
-    fact*=i
-print("factorial=",fact)   
+print(set1)
+print(len(set1))
+
+
+
+
+
+marks={}
+
+x=int(input("enter phy: "))
+marks.update({"phy" : x})
+
+x=int(input("enter chem: "))
+marks.update({"chem" : x})
+
+x=int(input("enter math: "))
+marks.update({"math" : x})
+
+print(marks)
+
+
+
+
+
+values={
+    ("float",9.0),
+    ("int",9),
+}
+print(values)
